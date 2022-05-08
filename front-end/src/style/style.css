@@ -1,0 +1,98 @@
+/* Outline (i.e. navbar, footer, header) */
+
+.header {
+  text-align: center;
+  color: #1890ff;
+  margin-top: 0;
+}
+
+.footer {
+  padding-bottom: 2%;
+}
+
+.nav-btns {
+    margin-top: 0.5%;
+    margin-bottom: 0;
+}
+
+.login-btn {
+    margin-right: 7%;
+}
+
+/* IDE page */
+
+.text-editor {
+    border: 1px solid #E0E0E0;
+}
+
+.main-body {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+textarea[name=output] {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    font-size: 16pt;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.testCases {
+    margin-top: 2%;
+}
+
+.question-col {
+  height: 100vh;
+}
+
+.ide-card {
+  width: 100%;
+}
+
+.mock-input{
+  height: 75vh;
+  width: 100%;
+}
+
+.submit-btns {
+  margin-top: 1%;
+}
+
+
+/* Skulpt IDE */
+.run-btn {
+    margin-left: 53%;
+}
+
+#output-area {
+    display: none;
+    margin-top: 2%;
+}
+
+/* Login Page */
+
+.login-page {
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #1890ff;
+    /* text-align: center; */
+}
+
+.login-title {
+    color: #1890ff; 
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.submit-btn {
+    margin-bottom: 2%;
+}
